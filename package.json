@@ -1,0 +1,23 @@
+{
+  "name": "btc-wallet",
+  "version": "1.0.0",
+  "description": "Bitcoin key/wallet (P2PKH) generator with Node",
+  "main": "createWallet.js",
+  "scripts": {
+    "start": "node createWallet.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+     "bitcoin",
+     "crypto",
+     "node",
+     "wallet"
+  ],
+  "author": "Justin Perez",
+  "license": "MIT",
+  "dependencies": {
+    "bip32": "^2.0.6",
+    "bip39": "^3.0.4",
+    "bitcoinjs-lib": "^5.2.0"
+  }
+}
